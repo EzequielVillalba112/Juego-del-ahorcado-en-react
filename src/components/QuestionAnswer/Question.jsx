@@ -6,13 +6,13 @@ export default function Question({ question, answer, value }) {
 
   useEffect(() => {
     Array.from(answer).map((letter, index) =>
-      letter === value ? setLetters(letter) : null
+      letter === value ? setLetters(...letters,[letter]) : null
     );
   }, [answer]);
 
   useEffect(()=>{
-    console.log(letters.name);
-  },[letters])
+    console.log(letters);
+  },[answer])
 
   return (
     <div>
