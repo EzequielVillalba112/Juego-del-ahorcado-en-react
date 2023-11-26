@@ -1,11 +1,10 @@
 import './App.css'
-import QuestionAnswer from './components/QuestionAnswer/QuestionAnswer'
 
 function App() {
 
   return (
     <>
-     <QuestionAnswer/>
+      <h1>ahoracado</h1>
     </>
   )
 }
