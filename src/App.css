@@ -13,8 +13,44 @@
   color: #888;
 }
 
+.palabras{
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+
 .letras{
-  width: 30px;
-  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 40px;
+  height: 50px;
   border-bottom: 2px solid #b3b2b2;
+  font-size: 30px;
+}
+
+.botones{
+  margin-top: 30px;
+  max-width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-abc{
+  margin-top: 10px;
+  margin-right: 10px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-ahoracado{
+  width: 350px;
+  height: 300px;
+  object-fit: contain;
+  margin-top: 20px;
 }
