@@ -24,10 +24,6 @@ export const Questions = [
     palabro: "JOIN",
   },
   {
-    pregunta: "Canal de Youtube que hay que suscribirse si o si",
-    palabro: "SOYJAB",
-  },
-  {
     pregunta: "Propiedad que cuenta el número de caracteres de un string",
     palabro: "LENGTH",
   },
